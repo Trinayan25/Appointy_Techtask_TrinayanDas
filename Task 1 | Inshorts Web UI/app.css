@@ -1,0 +1,111 @@
+
+
+
+.fit {
+  max-width: 99%;
+  max-height: 99%;
+}
+
+.nav navbar-nav {
+  text-align: center;
+}
+
+.container2{
+  text-align: center;
+}
+
+
+.for_color {
+  color :rgb(51, 77, 77);
+}
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  
+  overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: black;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  text-align: below;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
+.button5 {border-radius: 50%;}
+
+
+.glyphicon.glyphicon-random {
+    font-size: 50px;
+}
+
+.glyphicon.glyphicon-bookmark {
+    font-size: 50px;
+}
